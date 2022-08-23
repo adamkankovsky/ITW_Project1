@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Merriweather; 
+    color:#898989;
+    margin: 0;      
+}
+.content{
+    min-width: 768px;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p{
+    font-size: 14px;
+    line-height: 1.7;
+    color: #898989;
+}
+a{
+    text-decoration: none;
+    font-family: Montserrat;
+    color:steelblue;
+}
+a:hover{
+    color:black;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat;
+    color: #4d4d4d;
+    font-weight: normal;
+}
+#news-btn, #submit-btn{
+    font-family: Montserrat;
+    font-size: 13px;
+    letter-spacing: .15em;
+}
+#nav-logo a{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#nav-menu li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+#nav-logo a{
+    font-size: 25px;
+    color:black;
+    font-weight: bold;
+    float:left;
+}
+#nav-menu{
+    float: right;
+}
+#nav-menu ul{
+    list-style: none;
+    margin: unset;
+    padding-left: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+#nav-menu li{
+    display: inline;
+    font-size: 13px;
+    margin: 10px;
+    letter-spacing: .05em;
+}
+#nav-menu a{
+    color: #898989;
+}
+#nav-menu a:hover{
+    color: black;
+}
+header{
+    clear:both;
+}
+#header img{
+    width: 100%;
+    height: auto;
+}
+#header .content{
+    position: relative;
+}
+.content h1{
+    margin: unset;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    color:white;
+    font-size: 32px;
+    font-weight: normal;
+}
+#about{
+    padding-top: 40px;
+}
+#about h2{
+    font-size: 40px;
+    text-align:center;
+}
+#about p{
+    text-align: center;
+}
+#about h3{
+    font-size: 24px;
+}
+.about-item{
+    float: left;
+    width: 33%;
+    padding-left:20px;
+    padding-right:20px;
+    padding-bottom: 100px;
+}
+#about .about-item p{
+    color: #bfbfbf;
+    text-align: unset;
+}
+.about-item img{
+    width: 100%;
+}
+#middle-sections{
+    clear: both;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+#middle-sections h2{
+    font-size: 32px;
+}
+#middle-section h3{
+    font-size: 24px;
+}
+#news{
+    float: left;
+    width: 60%;
+}
+.news-item{
+    border-bottom: 1px solid #e3e3e3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 40px;
+}
+.news-date{
+    font-size: 12px;
+    color: #bfbfbf;
+    text-transform: uppercase;
+}
+#news-btn{
+    margin-top: 20px;
+    border: none;
+    display: inline-block;
+    padding: 15px 32px;
+    background-color: lightsteelblue;
+}
+#references{
+    float: left;
+    width: 40%;
+}
+#references blockquote{
+    margin: 0;
+    margin-bottom: 40px;
+}
+#references blockquote p {
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+}
+#references blockquote span{
+    display: block;
+    clear: both;
+    padding-left: 0;
+    color: #bfbfbf;
+    font-size: 14px;
+    font-style: italic;
+}
+#references img{
+    margin-right: 20px;
+    float: left;
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+#steps{
+    clear: both;
+    height: 100%;
+    padding-top: 40px;
+}
+.steps-item h3{
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 95px;
+}
+.steps-item{
+    width: 33%;
+    float: left;
+    padding-bottom: 100px;
+    padding-right: 30px;
+}
+.steps-item p{
+    padding-left: 95px;
+}
+#steps i{
+    float: left;
+    font-size: 60px;
+    color:lightsteelblue;
+}
+.steps-more{
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 95px;
+    text-transform: uppercase;
+}
+#contact{
+    clear: both;
+    padding-top: 40px;
+    background-color: #262626;
+    overflow: hidden;
+}
+.contact-item{
+    width: 30%;
+    float: left;
+    padding-bottom: 100px;
+}
+.contact-item h3{
+    font-size: 24px;
+    color: white;
+}
+.contact-item a:hover{
+    color: white;
+}
+.contact-item ul{
+    list-style: none;
+    padding: 0;
+}
+.contact-item li{
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.contact-item input{
+    display: block;
+    height: 54px;
+    margin: 4px;
+    font-size: 18px;
+    border-radius: 4px;
+    border :none;
+}
+#email-form{
+    width: 100%;
+}
+.contact-item input:invalid{
+    color: red;
+}
+#submit-btn{
+    background-color: steelblue;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 80px;
+}
+#footer-note{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #1a1a1a;
+    font-size: 12px;
+}
